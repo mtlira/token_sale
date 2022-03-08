@@ -3,5 +3,5 @@ const DappToken = artifacts.require("DappToken");
 //to run in any Javascript Runtime Environment
 
 module.exports = function (deployer) {
-  deployer.deploy(DappToken);
+  deployer.deploy(DappToken, 1e6);
 }
